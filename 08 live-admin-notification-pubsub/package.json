@@ -1,0 +1,22 @@
+{
+  "name": "08 live-admin-notification-pubsub-redis-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "node src/api.js",
+    "subscriber": "node src/subscriber.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ioredis": "^5.4.1",
+    "bullmq": "^5.4.2"
+  },
+  "module": "src/index.js",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}

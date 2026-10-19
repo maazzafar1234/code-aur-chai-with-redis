@@ -1,0 +1,22 @@
+{
+  "name": "06 BullMQ-redis-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/api.js",
+    "worker": "node src/worker.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ioredis": "^5.4.1",
+    "bullmq": "^5.4.2"
+  },
+  "module": "src/index.js",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
